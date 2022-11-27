@@ -1,4 +1,4 @@
-name: Matrix demo
+name: Use reuse
 on: push
 jobs:
   build:
