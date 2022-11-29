@@ -1,0 +1,54 @@
+{
+  "numTotalTestSuites": 3,
+  "numPassedTestSuites": 2,
+  "numFailedTestSuites": 1,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 2,
+  "numPassedTests": 2,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1669577492122,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [],
+      "startTime": 1669577492122,
+      "endTime": 1669577492122,
+      "status": "passed",
+      "message": "[vite-node] Failed to load @playwright/test",
+      "name": "/home/neimv/Projects/learning/github_action_course/tests/events-api.spec.js"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "MainContent"
+          ],
+          "fullName": " MainContent should render a button",
+          "status": "passed",
+          "title": "should render a button",
+          "duration": 59,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "MainContent"
+          ],
+          "fullName": " MainContent should show the help area after clicking the button",
+          "status": "passed",
+          "title": "should show the help area after clicking the button",
+          "duration": 52,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1669577494828,
+      "endTime": 1669577494939,
+      "status": "passed",
+      "message": "",
+      "name": "/home/neimv/Projects/learning/github_action_course/src/components/MainContent.test.jsx"
+    }
+  ]
+}
