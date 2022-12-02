@@ -70,4 +70,10 @@ jobs:
       - name: Get code
         uses: actions/checkout@v3
       - name: Run custom action
+        env:
+          AWS_ACCESS_KEY_ID: test
+          AWS_SECRET_ACCESS_KEY: test
         uses: ./.github/actions/deploy-s3-javascript
+        with:
+          bucket: hello-world
+          dist-folder: ./dist
