@@ -70,6 +70,7 @@ jobs:
       - name: Get code
         uses: actions/checkout@v3
       - name: Run custom action
+        id: deploy
         env:
           AWS_ACCESS_KEY_ID: test
           AWS_SECRET_ACCESS_KEY: test
@@ -77,3 +78,6 @@ jobs:
         with:
           bucket: hello-world
           dist-folder: ./dist
+      - name: output information
+        run: |
+          echo "Live URL: ${{ steps.deploy.outputs.website-url }}"
